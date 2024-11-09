@@ -1,0 +1,691 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Arial;
+  
+}
+body{
+  height: 2400px;
+  
+}
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
+}
+ /* Box 1 */
+.logo{
+  background-image: url("/img/Amazon_logo.jpg");
+  width: 92px;
+  height: 50px;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 8px;
+  
+}
+.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+/* Box 2 */
+.add-one{
+  font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    margin-left: 23px;
+    color: #ccc;
+    padding-top: 3px;
+}
+.add-icon{
+  font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.add-icon i{
+  font-size: 18px;
+
+}
+.add-two{
+ margin-right: 3px;
+ font-size: 18px;
+ padding-right: 7px;
+ padding-top: 5px;
+}
+.nav-location{
+  border: 1px solid transparent;
+  height: 50px;
+  padding-top: 5px;
+  cursor: pointer;
+  
+}
+.nav-location:hover{
+  border: 1px solid white;
+}
+/* Box 3 */
+.nav-search{
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 790px;
+}
+.nav-button{
+ height: 40px;
+ width: 50px;
+ background-color: #f3f3f3;
+ border: none;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+.nav-button:hover{
+  background-color: rgb(207, 207, 207);
+  
+  
+}
+.dropdown-icon{
+  padding-left: 5px;
+  font-size: 14px;
+  color: rgb(86, 85, 85);
+}
+.nav-button option{
+  font-size: 13px;
+  color: rgb(86, 85, 85);
+}
+
+#search-text{
+  width: 650px;
+  height: 36.7px;
+  padding-left: 6px;
+}
+.search-bar{
+  background-color: rgba(243, 164, 17, 0.993);
+  height: 40px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f1111;
+  border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ cursor: pointer;
+
+}
+.search-bar:hover{
+  background-color: orange;
+}
+.nav-language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 56px;
+  padding-top: 9px;
+  cursor: pointer;
+}
+.flag{
+  background-image: url("/img/flag.jpg");
+  background-size: cover;
+  height: 16px;
+  width: 22px;
+  font-size:9px ;
+  padding-top: 1px;
+}
+.main-language{
+  display: flex;
+}
+.main-language span{
+  padding-left: 4px;
+
+}
+.lang-name{
+  font-weight: bolder;
+  font-size: 15px;
+  height: 16px;
+  width: 13px;
+  padding-top: 2px;
+}
+.select{
+  padding-top: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ccc;
+}
+/* Box 4 */
+.nav-sign{
+  height: 40px;
+  width: 130px;
+  color: #fff;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.acc-holder{
+  display: flex;
+}
+.acc-holder span{
+  font-size: 14.5px;
+  font-weight: bolder;
+}
+.nav-sign p{
+  height: 13px;
+  width: 130px;
+  font-size: 12px;
+
+  
+} 
+.acc-select{
+ 
+  padding-left: 3px;
+  color: #ccc;
+}
+/* Box 5 */
+.nav-orders{
+  height: 45px;
+  width: 77px;
+  padding-top: 8px;
+  padding-left: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.nav-orders p{
+  height: 15px;
+  font-size: 13px;
+}
+.orders-summary{
+  font-size:15px ;
+}
+/* Box 6 */
+.nav-cart{
+  display: flex;
+  height: 50px;
+  padding-top: 9px;
+  cursor: pointer;
+  justify-content: center;
+  padding-right: 12px;
+}
+.nav-cart i{
+  font-size: 32px;
+}
+.cart-text{
+  font-size: 15px;
+  padding-top: 16px;
+  font-weight: bolder;
+  padding-left: 3px;
+}
+/* Sub-nav-1 */
+.sub-navbar{
+  height: 50px;
+  background-color: #222f3d;
+  display: flex;
+  /* justify-content: space-evenly;  */
+  align-items: center;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.nav-option{ 
+  font-size:15px;
+  font-weight: bolder;
+}
+.nav-All{
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 8px;
+  width: 40px;
+}
+.nav-All i{
+  font-size: 20px;
+}
+.nav-All span{
+  font-size: 14.5px;
+  height: 13px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+}
+.nav-customer-help{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 1350px;
+  padding-left: 15px;
+  color: #fff;
+}
+.Deals{
+  width: 100px;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 14px;
+  text-align: center;
+
+}
+.Service{
+  width: 125px;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 14px;
+  text-align: center;
+}
+.register{
+  width: 75px;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 14px;
+  text-align: center;
+}
+.gift{
+  width: 80px;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 14px;
+  text-align: center;
+}
+.offer{
+  width: 50px;
+  font-size: 14px;
+  height: 30px;
+  padding-top: 14px;
+  text-align: center;
+}
+/* Hero */
+.Hero{
+
+ height: 300px;
+}
+.main-Hero{
+ background-image: url("/img/Hero.jpg");
+ width: 1423px;
+ height: 300px;
+ background-size: cover;
+}
+
+.img-container{
+  width: 1423px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e2e7e6;
+  align-items: flex-start;
+  height: 450px; 
+  padding: 10px 0;
+  
+  
+}
+.box{
+  width: 30%;
+  height: 380px;
+  /* border: 2px solid black; */
+  background-color: white;
+  padding: 18px 0px 15px;
+  
+}
+
+.Box1{
+  width: 324px;
+  height:420px ;
+  margin-top: 3px;
+  color: whitesmoke;
+  margin-left: 10px;
+  display: inline-block;
+
+}
+.Box2{
+  width: 324px;
+  height:420px ;
+  margin-left: 0;
+  margin-top: 3px;
+  color: whitesmoke;
+}
+.Box3{
+  width: 324px;
+  height:420px ;
+  margin-left: 0px;
+  margin-top: 3px;
+  color: whitesmoke;
+}
+.Box4{
+  width: 324px;
+  height:420px ;
+  margin-left: 0px;
+  margin-top: 2px;
+  color: whitesmoke;
+}
+.Box1 h2{
+   font-size: 20px;
+   color: #0f1111;
+   height: 28px;
+   width: 324px;
+   font-weight: 700px;
+   display: flex;
+   padding-left: 20px;
+   padding-bottom: 5px;
+   
+}
+.img-1{
+  width: 280px;
+  height: 350px;
+  display: flex;
+  background-size: cover;
+  margin-left: 22px;
+  cursor: pointer;
+  
+ 
+
+}
+.Box1 p{
+  height: 18px;
+  width:324px ;
+  color: #007085;
+  display:flex;
+  font-size: 13px;
+  padding-top: 22px;
+  padding-left: 21px;
+  cursor: pointer;
+  
+}
+
+#Text-1{
+  font-size: 20px;
+  color: #0f1111;
+  height: 28px;
+  width: 324px;
+  font-weight: 700px;
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+#Text-2{
+  height: 18px;
+  width:324px ;
+  color: #007085;
+  display:flex;
+  font-size: 13px;
+  padding-top: 22px;
+  padding-left: 21px;
+  cursor: pointer;
+}
+#Text-2:hover{
+  color: orange;
+}
+.footer{
+  display: block;
+  padding-top: 15px;
+  
+}
+.foot-panel1{
+background-color: #354252;
+height: 50px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+font-size: 14px;
+cursor: pointer;
+}
+.foot-panel1:hover{
+  background-color:#425b79;
+}
+.foot-panel2{
+  height: 300px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+.foot-panel2 ul a{
+  display: block;
+  font-size: 14px;
+  padding-top: 10px;
+  cursor: pointer;
+
+}
+.foot-panel2 ul p{
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 45px;
+}
+.foot-panel2 ul a:hover{
+  text-decoration: underline;
+}
+.foot-panel3{
+  height: 70px;
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  display: flex;
+  text-align: center;
+  padding-left: 450px;
+  
+}
+.language{
+  display: flex;
+  height: 34px;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+.language p{
+  height: 18px;
+  width: 75px;
+  padding-right: 8px;
+  font-size: 14px;
+}
+.amazon-logo{
+  height: 60px;
+  width: 100px;
+  background-size: cover;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.country{
+  height: 33px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white ;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+.ind-flag{
+  height: 20px;
+  width: 24px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+.country p{
+  height: 18px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  padding-right: 8px;
+}
+.foot-panel3 ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 270px;
+  margin-right: 40px;
+}
+.foot-panel4{
+  display: flex;
+  background-color: #131A22;
+  color: white;
+  height: 160px;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  text-align: center;
+  padding-left: 200px;
+  gap: 100px;
+}
+.Description{
+  height: 140px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.Description-1 ul{
+  padding-top: 15px;
+  height: 60px;
+}
+.Description-1 ul a{
+ display: block;
+ height: 70px;
+ width: 100px;
+ font-size: 13px;
+ color: rgb(181, 180, 180);
+}
+.Description-1 ul a:hover{
+  text-decoration: underline;
+}
+.Description-1 ul a p{
+ display: block;
+ height: 70px;
+ width: 100px;
+ font-size: 13px;
+ color: rgb(181, 180, 180);
+ padding-right: 22px;
+
+
+}
+.Description-1 ul p{
+  font-size: 14px;
+  display: flex;
+  color: white;
+  padding-left: 15px;
+
+}
+
+.Description-2 ul{
+  padding-top: 15px;
+  height: 60px;
+}
+.Description-2 ul a{
+  display: block;
+  height: 70px;
+  width: 150px;
+  font-size: 13px;
+  color: rgb(181, 180, 180);
+}
+.Description-2 ul a:hover{
+   text-decoration: underline;
+}
+.Description-2 ul p{
+  font-size: 14px;
+  display: flex;
+  color: white;
+  padding-left: 15px;
+
+}
+.Description-3 ul{
+  padding-top: 15px;
+  height: 60px;
+}
+.Description-3 ul a{
+  display: block;
+  height: 70px;
+  width: 120px;
+  font-size: 13px;
+  color: rgb(181, 180, 180);
+}
+.Description-3 ul a:hover{
+  text-decoration: underline;
+}
+.Description-3 ul p{
+  font-size: 14px;
+  display: flex;
+  color: white;
+  padding-left: 15px;
+
+}
+.Description-4 ul{
+  padding-top: 15px;
+  height: 60px;
+}
+.Description-4 ul a{
+  display: block;
+  height: 70px;
+  width: 190px;
+  font-size: 13px;
+  color: rgb(181, 180, 180);
+}
+.Description-4 ul a:hover{
+     text-decoration: underline;
+}
+.Description-4 ul p{
+  font-size: 14px;
+  display: flex;
+  color: white;
+  padding-left: 15px;
+}
+.foot-panel5{
+  height: 80px;
+  color: white;
+  background-color: #131A22;
+  font-size: 12px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.protection-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding-top: 20px;
+  color: rgb(181, 180, 180);
+}
+.protection-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  padding-top: 4px;
+  color: rgb(181, 180, 180);
+}
+
+
+
+
+
+
+
+
